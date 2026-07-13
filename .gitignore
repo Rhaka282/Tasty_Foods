@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.db
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment configs (sensitive data)
+.env
+.env.backup
+.env.production
+.env.local
+.env.development
+.env.staging
+
+# Log files
+*.log
+
+# Dependencies (as fallback for subdirectories)
+**/node_modules/
+**/vendor/
+/test-repo/
